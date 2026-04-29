@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Wed, 29 Apr 2026 13:17:32 +0000
+MD5Sum:
+ 4dfe5cc7632fce40815097b4d58b3918               38 Release
+ 54dd6d372f82e3964881202357920cd9              405 main/binary-amd64/Packages
+ efd713b596e3dac5ad0b95a306f5ca28              327 main/binary-amd64/Packages.gz
+SHA1:
+ d4393f3013ec7830e19b992cf96e5ee3eaeb987e               38 Release
+ f2faf1423d06234b4a7634bf5fb93023db90a0c9              405 main/binary-amd64/Packages
+ 23b03834d642c09d057bc5c91b756c50cb671b3c              327 main/binary-amd64/Packages.gz
+SHA256:
+ e02ea2512bd24da1116bcf0328e119b1d44c5a9db019d86a87a55562dd801748               38 Release
+ d02a8cee8f849fb36178061859324046e8e759ebc2b2cae2ec7991bd32aced1c              405 main/binary-amd64/Packages
+ 509dc367357290f8506a54ebdcbf50b173184db18b159d81d24a43c6aca8f7da              327 main/binary-amd64/Packages.gz
+SHA512:
+ 5c4f88d4b2dccf6444842f49d58a79a623560a252477772e3286d5173178f6eabedff1d0a740b3924f5020319a000a5a23da96fbe48640f5288106318ec9f04e               38 Release
+ bcaf04c09c1cb5d252dc4cc6db5bc08aa3cbb3fcb5a908c446d9eb618f45b321fdb7d408860e71c4a956a919040a24e2081a2105dc252f721f44f4bfd48919da              405 main/binary-amd64/Packages
+ 1792c8a497823bfeb0255423ad8b950489a5732025fae54ebd79257f1bcb1010b32eb744f35d725bef1fc3ba9cd55fce055fe97a5bdc1cf5db8e8b54fd0d2543              327 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEgUe5j72UwuA/C7R0wkfMulqdPWsFAmnyBPQACgkQwkfMulqd
+PWujRA//Z1JD4LJo52Ivxc1Ub6oznRC3hLOnTD/ZBoCylCwR1YFS2FwhB+ks1/vR
+ApIby/PyxWLmx5M8lIkJVETT4F2jbWbiAAWgRZRykOcG4wFoPJ03xuvcOnapk9IL
+ieWYuXaGmNtsU0YP8ufzW5B/41RP+HxGqteaNztBPZgUEhQUSEcx/ShbgvsnlSNT
+hiTWNW4kWgeX/+JIqk9h6pL5OO8oQ+h3CXEkesvYTtEwZIQemU3GQiSOHe0EO7Uh
+dZG0QVHyt3YqVkiZXK4XvmOaiG4A5On4adXB6JRVM5Rig5IsuilEpURVffmEgKAG
+UEU5e/8MprmR9HPGZ6qkPepEUHCpWYM238PXqeqmQs/70ab2vXzsP2M385tLl/Zk
+iCv842qRq+21RZK/r0rxv+bTZ9HMWxifuNWi1YxF4HBBGaKAWsUFpPntMq37q1dv
+pjXTot3XsXcYJO2oFuIoxB38Ovpf8v+iHO3lAXysSl2VaCm5sogugUTdcd/WQMsI
+vitgCyoqzow34Ds650ZfV64VitJJeARVxIreyshA0lWP7QfmXQs5lDWACONuqVk8
+qGvzQv5CMMHFeLTcWBWe+5cEIm/JQIjM7gC3ELBGLNQFK9DT6hQjbtW4GlsX5fDu
+YJTaLACsa/vMnqphTjrsxl5yZ/d3hal8OFsa+NamCiOfFttcadA=
+=2+Oy
+-----END PGP SIGNATURE-----
