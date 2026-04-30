@@ -1,13 +1,33 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-echo "Installing AMBCT..."
+set -e
 
-wget -q https://raw.githubusercontent.com/BlitzPythoner/AMBCT-Linux-Repo/main/public.key -O /tmp/ambct.key
-gpg --dearmor < /tmp/ambct.key | sudo tee /usr/share/keyrings/ambct.gpg > /dev/null
+echo "==> Installing AMBCT..."
 
-echo "deb [signed-by=/usr/share/keyrings/ambct.gpg] https://raw.githubusercontent.com/BlitzPythoner/AMBCT-Linux-Repo/main/ stable main" | sudo tee /etc/apt/sources.list.d/ambct.list
+KEYRING="/usr/share/keyrings/ambct.gpg"
+SOURCE_LIST="/etc/apt/sources.list.d/ambct.list"
+REPO_URL="https://blitzpythoner.github.io/AMBCT-Linux-Repo"
 
-sudo apt update
-sudo apt install -y ambct
+# Check for root
+if [[ "$EUID" -ne 0 ]]; then
+    echo "Please run this script as root (sudo)."
+    exit 1
+fi
 
-echo "Done."
+echo "==> Installing GPG key..."
+
+curl -fsSL "$REPO_URL/public.key" | gpg --dearmor -o "$KEYRING"
+
+chmod 644 "$KEYRING"
+
+echo "==> Adding repository..."
+
+echo "deb [signed-by=$KEYRING] $REPO_URL stable main" > "$SOURCE_LIST"
+
+echo "==> Updating package lists..."
+apt update
+
+echo "==> Installing ambct..."
+apt install -y ambct
+
+echo "==> Done."
