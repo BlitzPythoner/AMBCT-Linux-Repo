@@ -1,15 +1,15 @@
 Package: ambct
-Version: 1.0
+Version: 1.01
 Architecture: all
-Maintainer: Alexander
-Depends: python3, wimtools
+Maintainer: BlitzPythoner
+Depends: python3, python3-pip, python3-tk, wimtools
 Filename: pool/main/a/ambct/AMBCT.deb
-Size: 7916
-MD5sum: e233b9977d35896f583718b2b84ff614
-SHA1: e08fd37dc06d4bf97c94d53fb5a54928c08fa012
-SHA256: 6c04f872eafdc2f177b51cfa0c66ac241afcc748420a9ee174fefbd18854faec
+Size: 736
+MD5sum: a20e588b26d95e1db354d58a0c7f559d
+SHA1: f64738143cb0d41d97ee69ab177a6cad4fb30799
+SHA256: 3d2b19a280abd961e160bc29ae3561b467f6d9a933c8272ae9615f18be3dace3
 Section: utils
 Priority: optional
-Description: AMBCT Backup Tool
+Description: Automatic Manual Backup Creation Tool for Linux
  Simple backup tool using wimlib.
 
