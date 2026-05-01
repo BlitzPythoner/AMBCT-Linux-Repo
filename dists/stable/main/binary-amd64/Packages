@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: BlitzPythoner
 Depends: python3, python3-pip, python3-tk, wimtools
 Filename: pool/main/a/ambct/AMBCT.deb
-Size: 736
-MD5sum: a20e588b26d95e1db354d58a0c7f559d
-SHA1: f64738143cb0d41d97ee69ab177a6cad4fb30799
-SHA256: 3d2b19a280abd961e160bc29ae3561b467f6d9a933c8272ae9615f18be3dace3
+Size: 8032
+MD5sum: 6fc29a1f2e0b323616251533baaa2364
+SHA1: 16763b24c074170f82123d0ca4acda37fbc4ef2e
+SHA256: 157dc1f5e722a83ff998f9e932fc6a93355e059144047cc1b13afd3a223fbad0
 Section: utils
 Priority: optional
 Description: Automatic Manual Backup Creation Tool for Linux
